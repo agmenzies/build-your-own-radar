@@ -1700,13 +1700,13 @@ background-repeat:no-repeat!important
 }
 .btn-spinner
 {
-background-image:url(/imgs/spinner.gif)!important;
+background-image:url("/images/spinner.gif")!important;
 background-repeat:no-repeat!important;
 padding-right:57px!important
 }
 .btn-disabled.btn-spinner
 {
-background-image:url(/imgs/spinner-disabled.gif)!important;
+background-image:url("/images/spinner-disabled.gif")!important;
 padding-right:57px!important;
 -webkit-transition:all .2s ease-out,background-image 0s ease-out 0s,background-color 0s ease-out 0s;
 transition:all .2s ease-out,background-image 0s ease-out 0s,background-color 0s ease-out 0s
@@ -2013,7 +2013,7 @@ font-size:0
 }
 .spinner-white-bg
 {
-background:url(/imgs/spinner-white-bg.gif) no-repeat left center;
+background:url("/images/spinner-white-bg.gif") no-repeat left center;
 left:50%;
 top:20%;
 padding-left:40px;
@@ -2031,7 +2031,7 @@ text-align:center
 }
 .spinner .spinner--centered
 {
-background:url(/imgs/spinner-white-bg.gif) no-repeat left center;
+background:url("/images/spinner-white-bg.gif") no-repeat left center;
 padding-left:40px;
 margin-left:-20px;
 margin-top:-20px;
@@ -2120,7 +2120,7 @@ transform:translate(0,-2px)
 font-weight:600;
 -webkit-transform:translate(0,0);
 transform:translate(0,0);
-background:no-repeat url(/candy/active_menu_item.png) center bottom
+background:no-repeat url"/images/active_menu_item.png") center bottom
 }
 .header--with-image-hero,.header--with-image-hero .grid__cell,.header--with-image-hero .header__header-wrapper
 {
@@ -2246,7 +2246,7 @@ border:none
 input.footer__perspectives-submit
 {
 text-indent:-9999px;
-background:#fff url(/candy/footer-icons/perspectives_submit.png) no-repeat center center;
+background:#fff url("/images/perspectives_submit.png") no-repeat center center;
 border:none;
 display:inline-block;
 width:38px;
@@ -2386,7 +2386,7 @@ padding:10px 25px 0;
 cursor:pointer;
 color:#fff;
 margin-right:12.5px;
-background:url(/imgs/navicon.png) no-repeat right 21px
+background:url("/images/navicon.png") no-repeat right 21px
 }
 .mobile-header>.mobile-header__menu
 {
@@ -3820,7 +3820,7 @@ padding:42px 0 0
 }
 .jobs-selector-body
 {
-background:repeat-y url(/imgs/job-selector-wrapper-bg.png) center center;
+background:repeat-y url("/images/job-selector-wrapper-bg.png") center center;
 padding:0
 }
 .jobs-selector-body li
@@ -3842,7 +3842,7 @@ padding:3px 20px
 .jobs-selector-body .jobs-selector
 {
 margin:0;
-background:repeat-y url(/imgs/job-selector-bg.png) 12px 0
+background:repeat-y url("/images/ob-selector-bg.png") 12px 0
 }
 .jobs-selector-body .job-region-list
 {
@@ -5306,7 +5306,7 @@ padding:50px
 #section-blue .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/icons/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5319,7 +5319,7 @@ left:50%
 #section-blue .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/icons/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5336,7 +5336,7 @@ left:20%
 #section-purple .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/icons/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5349,7 +5349,7 @@ left:50%
 #section-purple .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5368,7 +5368,7 @@ left:80%
 #section-purple .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5381,7 +5381,7 @@ left:50%
 #section-orange .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5394,7 +5394,7 @@ left:50%
 #section-orange .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5413,7 +5413,7 @@ left:20%
 #section-orange .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5430,7 +5430,7 @@ left:80%
 #section-lime .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5443,7 +5443,7 @@ left:50%
 #section-lime .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5462,7 +5462,7 @@ left:80%
 #section-lime .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5479,7 +5479,7 @@ left:20%
 #section-dark_blue .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5492,7 +5492,7 @@ left:50%
 #section-dark_blue .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5511,7 +5511,7 @@ left:20%
 #section-dark_blue .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5524,7 +5524,7 @@ left:50%
 #section-green .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -5537,7 +5537,7 @@ left:50%
 #section-green .panel-triangle
 {
 position:absolute;
-background-image:url(/imgs/icons/panel-triangle.png);
+background-image:url("/images/panel-triangle.png");
 background-size:cover;
 width:30px;
 height:15px;
@@ -7316,47 +7316,47 @@ font-size:20px
 border-top:0;
 border-right:1px solid #eee;
 background-position:bottom right;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_techniques--inactive.png)
+background-image:url("/images/menu_quadrant_techniques--inactive.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.techniques.selected,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.techniques:active,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.techniques:hover
 {
 background-color:#1ebccd;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_techniques.png)
+background-image:url("/images/menu_quadrant_techniques.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.tools
 {
 border-top:0;
 background-position:bottom left;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_tools--inactive.png)
+background-image:url("/images/menu_quadrant_tools--inactive.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.tools.selected,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.tools:active,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.tools:hover
 {
 background-color:#86b782;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_tools.png)
+background-image:url("/images/menu_quadrant_tools.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.platforms
 {
 border-right:1px solid #eee;
 border-top:1px solid #eee;
 background-position:top right;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_platforms--inactive.png)
+background-image:url("/images/menu_quadrant_platforms--inactive.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.platforms.selected,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.platforms:active,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.platforms:hover
 {
 background-color:#f38a3e;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_platforms.png)
+background-image:url("/images/menu_quadrant_platforms.png")
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.languages
 {
 border-top:1px solid #eee;
 background-position:top left;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_languages--inactive.png);
+background-image:url("/images/menu_quadrant_languages--inactive.png");
 padding:18px 0
 }
 .radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.languages.selected,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.languages:active,.radar-quadrant-navigation .radar-quadrant-navigation__radar-quadrants .radar-quadrant-navigation__quadrant a.languages:hover
 {
 background-color:#b32059;
-background-image:url(//static.thoughtworks.com/images/radar/secondary_navigation_quadrant/menu_quadrant_languages.png)
+background-image:url("/images/menu_quadrant_languages.png")
 }
 .radar-search-navigation a,.radar-search-navigation a:hover
 {
@@ -8281,7 +8281,7 @@ border-bottom:1px solid #eee
 }
 .tabbed-selector .tabbed-selector__tabs .active
 {
-background:no-repeat url(/candy/active_menu_item.png) center bottom!important
+background:no-repeat url("/images/active_menu_item.png") center bottom!important
 }
 .tabbed-selector .tabbed-selector__tabs nav
 {
@@ -8333,7 +8333,7 @@ border-bottom:1px solid #ddd
 }
 .tabbed-selector.tabbed-selector--darker .tabbed-selector__tabs .active
 {
-background:no-repeat url(/imgs/active-menu-item-darker.png) center bottom!important
+background:no-repeat url("/images/active-menu-item-darker.png") center bottom!important
 }
 .tabbed-selector .tabbed-selector__quote
 {
@@ -8344,57 +8344,6 @@ line-height:1.3em;
 font-size:24px;
 font-style:italic;
 color:#f78f31
-}
-@media screen and (max-width:600px)
-{
-.tabbed-selector .tabbed-selector__quote
-{
-font-size:20px
-}
-
-}
-.tabbed-selector .tabbed-selector__author
-{
-text-align:right;
-color:#808285
-}
-@media screen and (min-width:601px)
-{
-.tabbed-selector .tabbed-selector__quotation
-{
-background:url(/imgs/featured-client-quotes-services.png),url(/imgs/featured-client-quotes-services-down.png);
-background-repeat:no-repeat;
-background-position:left top,right top;
-padding:0 80px
-}
-
-}
-.tabbed-selector .tabbed-selector__option_title
-{
-border-bottom:1px solid #999;
-padding-bottom:12.5px;
-margin-bottom:12.5px
-}
-.tabbed-selector .tabbed-selector__option_title img
-{
-max-width:180px;
-max-height:77px
-}
-@media screen and (max-width:600px)
-{
-.tabbed-selector .tabbed-selector__tabs
-{
-display:none
-}
-
-}
-@media screen and (min-width:601px)
-{
-.tabbed-selector .tabbed-selector__option_title
-{
-display:none
-}
-
 }
 .hero-banner-editable
 {
@@ -8681,7 +8630,7 @@ width:100%;
 position:absolute;
 bottom:-2px;
 left:0;
-background:repeat-x url(/imgs/glyphs/glyph-sea.png) bottom left;
+background:repeat-x url("/images/glyph-sea.png") bottom left;
 background-size:contain
 }
 @media screen and (max-width:600px)
@@ -8708,121 +8657,10 @@ width:100%;
 position:absolute;
 bottom:-2px;
 left:0;
-background:repeat-x url(/imgs/glyphs/glyph-sea-blue.png) bottom left;
+background:repeat-x url("/images/glyph-sea-blue.png") bottom left;
 background-size:contain
 }
-@media screen and (max-width:600px)
-{
-.hero-banner.hero-banner--glyph-sea-blue ::after
-{
-background-size:cover;
-height:50px
-}
 
-}
-.hero-banner.hero-banner--open-source
-{
-background:#e95899 no-repeat url(//static.thoughtworks.com/images/open-source-banner.jpg) center center;
-background-size:cover
-}
-.hero-banner.hero-banner--financial-services
-{
-background:#e95899
-}
-.hero-banner.hero-banner--services .grid
-{
-max-width:960px
-}
-.hero-banner.hero-banner--services .grid .grid__cell
-{
-margin-bottom:0
-}
-.hero-banner.hero-banner--services .hero-banner__title
-{
-line-height:.8em;
-letter-spacing:-.05em;
-margin-top:9%;
-margin-bottom:9%;
-font-size:80px;
-text-align:center
-}
-@media screen and (max-width:985px)
-{
-.hero-banner.hero-banner--services .hero-banner__title
-{
-font-size:50px;
-padding-left:6%
-}
-
-}
-@media screen and (max-width:600px)
-{
-.hero-banner.hero-banner--services .hero-banner__title
-{
-text-align:center;
-font-size:40px;
-margin-top:93%;
-width:100%;
-padding-left:0
-}
-
-}
-.logo-banner img
-{
-max-width:45%;
-padding-top:30px
-}
-.logo-banner .logo-banner__subtitle p
-{
-font-size:18px;
-margin-bottom:0
-}
-.logo-banner .grid__cell
-{
-margin-bottom:25px
-}
-@media screen and (min-width:600px)
-{
-.logo-banner .logo-banner__subtitle p
-{
-font-size:26px;
-font-weight:400;
-margin-bottom:0;
-line-height:1.4em
-}
-.logo-banner img
-{
-max-width:25%;
-padding-top:30px
-}
-
-}
-.simple-banner
-{
-background:#e95899;
-color:#fff
-}
-.simple-banner .grid
-{
-padding:35px 0
-}
-.simple-banner.simple-banner--xander .description
-{
-text-align:center
-}
-@media screen and (min-width:600px)
-{
-.simple-banner.simple-banner--xander .description
-{
-width:50%
-}
-
-}
-.simple-banner.simple-banner--xander .simple-banner__title
-{
-font-weight:400;
-font-size:28px
-}
 @media screen and (min-width:600px)
 {
 .simple-banner.simple-banner--xander .simple-banner__title
@@ -9391,7 +9229,7 @@ background-color:#eee
 }
 .radar-header.radar-edition-2018-05 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2018-05/tech-radar-201805-landing-page-medium.png);
+background-image:url("/images/tech-radar-201805-landing-page-medium.png");
 background-repeat:no-repeat;
 background-color:#eee;
 background-size:cover;
@@ -9402,7 +9240,7 @@ max-width:100%
 {
 .radar-header.radar-edition-2018-05 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2018-05/tech-radar-201805-landing-page-small.png)
+background-image:url("/images/tech-radar-201805-landing-page-small.png")
 }
 
 }
@@ -9410,7 +9248,7 @@ background-image:url(//static.thoughtworks.com/images/radar/2018-05/tech-radar-2
 {
 .radar-header.radar-edition-2018-05 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2018-05/tech-radar-201805-landing-page-wide.png)
+background-image:url("/images/tech-radar-201805-landing-page-wide.png")
 }
 
 }
@@ -9428,7 +9266,7 @@ background-color:#eee
 }
 .radar-header.radar-edition-2017-11 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2017-11/tech-radar-201711-landing-page-medium.png);
+background-image:url("/images/tech-radar-201711-landing-page-medium.png");
 background-repeat:no-repeat;
 background-color:#002e79;
 background-size:cover;
@@ -9439,7 +9277,7 @@ max-width:100%
 {
 .radar-header.radar-edition-2017-11 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2017-11/tech-radar-201711-landing-page-small.png)
+background-image:url("/images/tech-radar-201711-landing-page-small.png")
 }
 
 }
@@ -9447,7 +9285,7 @@ background-image:url(//static.thoughtworks.com/images/radar/2017-11/tech-radar-2
 {
 .radar-header.radar-edition-2017-11 .radar-header__radar-glyph
 {
-background-image:url(//static.thoughtworks.com/images/radar/2017-11/tech-radar-201711-landing-page-wide.png)
+background-image:url("/images/tech-radar-201711-landing-page-wide.png")
 }
 
 }
@@ -9704,11 +9542,11 @@ border-bottom:none
 }
 .two-column-blurb-with-button .grid-top-background-left
 {
-background-image:url(/imgs/homepage_tiles/agile-it-bkg.jpg)
+background-image:url("/images/agile-it-bkg.jpg")
 }
 .two-column-blurb-with-button .grid-top-background-right
 {
-background-image:url(/imgs/homepage_tiles/business.png)
+background-image:url("/images/business.png")
 }
 .two-column-blurb-with-button .small-glyph
 {
@@ -9794,13 +9632,6 @@ color:#fff
 @media screen and (min-width:600px)
 {
 .side-column-blurb__style-example
-{
-background-position:60% 15%;
-background-image:url(/imgs/on-site-interview-come-meet-us.png);
-min-height:300px;
-background-size:cover
-}
-
 }
 #contact-us-vertical
 {
@@ -14406,7 +14237,7 @@ font-size:55px
 {
 .feature_summary--background
 {
-background:url(https://67fb162d391b3c725e9d-210fd98f9f4ad5bac2f98cc8e61aaae5.ssl.cf2.rackcdn.com/images/homepage-glyphs-background.png) no-repeat center center;
+background:url("/images/homepage-glyphs-background.png") no-repeat center center;
 background-size:contain
 }
 .feature_summary--wrapper
@@ -15268,7 +15099,7 @@ margin-top:12.5px
 }
 .profile-mini-banner
 {
-background:no-repeat url(https://67fb162d391b3c725e9d-210fd98f9f4ad5bac2f98cc8e61aaae5.ssl.cf2.rackcdn.com/images/background-stickers-wall.jpg) center top;
+background:no-repeat url("/images/background-stickers-wall.jpg") center top;
 background-size:auto 250px
 }
 @media screen and (min-width:600px)
@@ -16150,13 +15981,7 @@ color:#fff
  *  Twitter: http://twitter.com/fortaweso_me
  *  Work: Lead Product Designer @ http://kyruus.com
  */@font-face
-{
-font-family:FontAwesome;
-src:url(/fonts/fontawesome/fontawesome-webfont.eot?v=3.1.0);
-src:url(/fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=3.1.0) format("embedded-opentype"),url(/fonts/fontawesome/fontawesome-webfont.woff?v=3.1.0) format("woff"),url(/fonts/fontawesome/fontawesome-webfont.ttf?v=3.1.0) format("truetype"),url(/fonts/fontawesome/fontawesome-webfont.svg#fontawesomeregular?v=3.1.0) format("svg");
-font-weight:400;
-font-style:normal
-}
+
 [class*=" icon-"],[class^=icon-]
 {
 font-family:FontAwesome;
@@ -19218,7 +19043,7 @@ border:1px solid #ccc
 }
 .slick-loading .slick-list
 {
-background:#fff url(/imgs/spinner.gif) center center no-repeat
+background:#fff url("/images/spinner.gif") center center no-repeat
 }
 .slick-next,.slick-prev
 {
@@ -19476,7 +19301,7 @@ right:26px;
 display:block;
 width:12px;
 height:12px;
-background:url(chosen-sprite.png) -42px 1px no-repeat;
+background:url("/images/chosen-sprite.png") -42px 1px no-repeat;
 font-size:1px
 }
 .chosen-container-single .chosen-single abbr:hover
@@ -19501,7 +19326,7 @@ height:100%
 display:block;
 width:100%;
 height:100%;
-background:url(chosen-sprite.png) no-repeat 0 2px
+background:url("/images/chosen-sprite.png") no-repeat 0 2px
 }
 .chosen-container-single .chosen-search
 {
@@ -19519,7 +19344,7 @@ width:100%;
 height:auto;
 outline:0;
 border:1px solid #aaa;
-background:url(chosen-sprite.png) no-repeat 100% -20px;
+background:url("/images/chosen-sprite.png") no-repeat 100% -20px;
 font-size:1em;
 font-family:sans-serif;
 line-height:normal;
@@ -19672,7 +19497,7 @@ right:3px;
 display:block;
 width:12px;
 height:12px;
-background:url(chosen-sprite.png) -42px 1px no-repeat;
+background:url("/images/chosen-sprite.png") -42px 1px no-repeat;
 font-size:1px
 }
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover
@@ -19819,7 +19644,7 @@ border-right:none
 .chosen-rtl .chosen-search input[type=text]
 {
 padding:4px 5px 4px 20px;
-background:url(chosen-sprite.png) no-repeat -30px -20px;
+background:url("/images/chosen-sprite.png") no-repeat -30px -20px;
 direction:rtl
 }
 .chosen-rtl.chosen-container-single .chosen-single div b
@@ -19834,7 +19659,7 @@ background-position:-12px 2px
 {
 .chosen-container .chosen-results-scroll-down span,.chosen-container .chosen-results-scroll-up span,.chosen-container-multi .chosen-choices .search-choice .search-choice-close,.chosen-container-single .chosen-search input[type=text],.chosen-container-single .chosen-single abbr,.chosen-container-single .chosen-single div b,.chosen-rtl .chosen-search input[type=text]
 {
-background-image:url(/imgs/chosen-sprite@2x.png)!important;
+background-image:url("/images/chosen-sprite@2x.png")!important;
 background-size:52px 37px!important;
 background-repeat:no-repeat!important
 }
@@ -20433,7 +20258,6 @@ line-height:1.3em;
 font-size:24px;
 font-style:italic;
 display:block;
-background:no-repeat url(/imgs/icons/quote-open.png) left top,no-repeat url(/imgs/icons/quote-close.png) right top;
 background-size:55px;
 padding:0 80px 25px 80px
 }
