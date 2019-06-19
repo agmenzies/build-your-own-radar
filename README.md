@@ -1,5 +1,5 @@
 
-[![Coeus Logo](https://www.coeus.consulting/hs-fs/hubfs/Coeus%202019/Images/COEUS%20logo.png  alt="COEUS logo")](https://www.coeusconsulting.co.uk)
+[![Coeus Logo](https://www.coeus.consulting/hs-fs/hubfs/Coeus%202019/Images/COEUS%20logo.png](https://www.coeusconsulting.co.uk)
 
 [![Build Status](https://travis-ci.org/agmenzies/Coeus-Radar02.svg?branch=master)](https://travis-ci.org/agmenzies/Coeus-Radar02)
 
