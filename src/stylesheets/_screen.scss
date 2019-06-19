@@ -3486,26 +3486,6 @@ table.dataTable
 {
 background:#ebebeb
 }
-table.dataTable thead .sorting
-{
-background:url(/imgs/icons/sorting-icons/sort-both.png) no-repeat center right
-}
-table.dataTable thead .sorting_asc
-{
-background:url(/imgs/icons/sorting-icons/sort-asc.png) no-repeat center right
-}
-table.dataTable thead .sorting_desc
-{
-background:url(/imgs/icons/sorting-icons/sort-desc.png) no-repeat center right
-}
-table.dataTable thead .sorting_asc_disabled
-{
-background:url(/imgs/icons/sorting-icons/sort-asc-disabled.png) no-repeat center right
-}
-table.dataTable thead .sorting_desc_disabled
-{
-background:url(/imgs/icons/sorting-icons/sort-desc-disabled.png) no-repeat center right
-}
 .dataTables_wrapper .dataTables_filter label
 {
 float:right
@@ -3645,15 +3625,6 @@ display:none
 }
 
 }
-.featured-image-url
-{
-border-bottom:none
-}
-.insights-hero
-{
-background:#fff no-repeat url(/candy/insights-herox1.png) center center;
-background-size:cover
-}
 .insights-hero .insights-hero__title
 {
 font-size:46px;
@@ -3687,39 +3658,6 @@ padding:25px
 }
 @media screen and (min-width:985px)
 {
-.insights-hero .insights-hero__title
-{
-font-size:70px;
-padding:37.5px
-}
-
-}
-@media screen and (min-width:600px)
-{
-.insights-hero
-{
-margin-top:25px;
-background-image:url(/candy/insights-hero.png);
-background-size:contain
-}
-
-}
-@media screen and (min-width:800px)
-{
-.insights-hero
-{
-background-image:url(/candy/insights-hero.png)
-}
-
-}
-@media screen and (min-width:985px)
-{
-.insights-hero
-{
-background-image:url(/candy/insights-hero.png)
-}
-
-}
 .grid-wrapper.how-we-do-it .accordion__section
 {
 border-top:1px solid #808285;
@@ -3855,11 +3793,6 @@ max-height:9em
 .new-york>.new-york__image .module-menu
 {
 margin-right:37.5px
-}
-.new-york--manchester
-{
-background:#e95899 no-repeat url(../imgs/manchester/manchester_background.jpg) center center;
-background-size:cover
 }
 .insights-rss
 {
@@ -6028,19 +5961,7 @@ transform:translate(0,2px);
 transition:all 0 ease-in;
 opacity:.7
 }
-.big-data-featured-item-card
-{
-background:no-repeat url(/imgs/big-data/big-data-analytics-subscription-tile.png) left top
-}
-@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi)
-{
-.big-data-featured-item-card
-{
-background:no-repeat url(/imgs/big-data/big-data-analytics-subscription-tile-2x.png) left top;
-background-size:180%
-}
 
-}
 .side-titles
 {
 text-align:center
@@ -6281,85 +6202,6 @@ padding-bottom:12.5px
 }
 @media screen and (max-width:600px)
 {
-.quote__content
-{
-text-align:center
-}
-
-}
-.quote__content:after
-{
-content:'"'
-}
-.quote__content:before
-{
-content:'"'
-}
-@media screen and (min-width:600px)
-{
-.quote__content
-{
-background:no-repeat url(/imgs/icons/quote-open.png) left top,no-repeat url(/imgs/icons/quote-close.png) right top;
-font-size:26px;
-text-align:center;
-line-height:1.4em;
-padding:32px 64px 24px;
-background-size:60px
-}
-.quote__content.green
-{
-background-image:url(/imgs/icons/quote-green.png),url(/imgs/icons/quote-green-close.png)
-}
-.quote__content.pink
-{
-background-image:url(/imgs/icons/quote-pink.png),url(/imgs/icons/quote-pink-close.png)
-}
-.quote__content.orange
-{
-background-image:url(/imgs/icons/quote-orange.png),url(/imgs/icons/quote-orange-close.png)
-}
-.quote__content.brown
-{
-background-image:url(/imgs/icons/quote-brown.png),url(/imgs/icons/quote-brown-close.png)
-}
-.quote__content.blue
-{
-background-image:url(/imgs/icons/quote-blue.png),url(/imgs/icons/quote-blue-close.png)
-}
-.quote__content.black-quote
-{
-background-image:url(/imgs/icons/quote-black.png),url(/imgs/icons/quote-black-close.png)
-}
-.quote__content.dark-blue
-{
-background-image:url(/imgs/icons/quote-dark-blue.png),url(/imgs/icons/quote-dark-blue-close.png)
-}
-.quote__content.dark-pink
-{
-background-image:url(/imgs/icons/quote-dark-pink.png),url(/imgs/icons/quote-dark-pink-close.png)
-}
-.quote__content.gray
-{
-background-image:url(/imgs/icons/quote-gray.png),url(/imgs/icons/quote-gray-close.png)
-}
-.quote__content.light-green
-{
-background-image:url(/imgs/icons/quote-light-green.png),url(/imgs/icons/quote-light-green-close.png)
-}
-.quote__content.purple
-{
-background-image:url(/imgs/icons/quote-purple.png),url(/imgs/icons/quote-purple-close.png)
-}
-.quote__content:after
-{
-content:''
-}
-.quote__content:before
-{
-content:''
-}
-
-}
 .author__details .grid-wrapper
 {
 padding-top:0!important
@@ -6497,91 +6339,6 @@ border-top:6.25px solid #26bdcf
 .info-box.info-box--green
 {
 border-top:6.25px solid #83ad78
-}
-.call-to-action-banner
-{
-border-bottom:none;
-background-repeat:no-repeat;
-background-size:27px 27px;
-background-position:97% 85%;
-background-position-x:97%;
-background-position-y:85%;
-background-color:#eee;
-background-image:url(/imgs/big-data/pink-arrow.png);
-border-top:6.25px solid #ee0b77;
-display:block;
-padding:25px 12.5px
-}
-.call-to-action-banner .call-to-action-banner__image
-{
-float:left;
-margin-left:12.5px;
-margin-right:12.5px;
-width:50px
-}
-@media screen and (min-width:600px)
-{
-.call-to-action-banner .call-to-action-banner__image
-{
-width:100px
-}
-
-}
-.call-to-action-banner .call-to-action-banner__content
-{
-margin-left:20px
-}
-.call-to-action-banner .call-to-action-banner__header
-{
-color:#ee0b77;
-font-size:26px;
-min-height:26px
-}
-.call-to-action-banner .call-to-action-banner__description
-{
-color:#000;
-font-size:18px;
-min-height:21px;
-margin-bottom:0;
-margin-right:40px;
-line-height:1.5em
-}
-@media screen and (min-width:600px)
-{
-.call-to-action-banner .call-to-action-banner__description
-{
-margin-right:70px;
-margin-bottom:25px
-}
-
-}
-.call-to-action-banner--blue
-{
-background-repeat:no-repeat;
-background-size:27px 27px;
-background-position:97% 85%;
-background-position-x:97%;
-background-position-y:85%;
-background-color:#7dcad2;
-background-image:url(/imgs/glyphs/arrow-white.png);
-border-top:6.25px solid #000
-}
-.call-to-action-banner--blue .call-to-action-banner__header
-{
-color:#fff;
-font-size:30px
-}
-.call-to-action-banner--blue .call-to-action-banner__header[contenteditable=true]:focus,.call-to-action-banner--blue .call-to-action-banner__header[contenteditable=true]:hover
-{
-background-color:grey
-}
-.call-to-action-banner--blue .call-to-action-banner__description
-{
-font-size:22px
-}
-.call-to-action-banner--blue-top-border
-{
-border-top-color:#80c9d2
 }
 .search-box #search-query
 {
