@@ -63,10 +63,10 @@ The application uses [webpack](https://webpack.github.io/) to package dependenci
 
 ## Docker Image - Custom for Coeus
 There is a docker Repo for running the radar on your docker machine
-(https://hub.docker.com/r/agmenzies/coeus-radar01). To pull and run the image, run the following commands.
+(https://hub.docker.com/r/agmenzies/coeus-radar02). To pull and run the image, run the following commands.
 ```
 $ docker pull agmenzies/coeus-radar01
-$ docker run --rm -p 8080:80 -e SERVER_NAMES="localhost 127.0.0.1" agmenzies/coeus-radar01
+$ docker run --rm -p 8080:80 -e SERVER_NAMES="localhost 127.0.0.1" agmenzies/coeus-radar02
 $ open http://localhost:8080
 ```
 
@@ -93,7 +93,7 @@ $ sudo add-apt-repository \
 $ sudo apt-get update
 $ sudo apt-get install docker-ce
 $ sudo docker pull agmenzies/coeus-radar01
-$ sudo docker run --rm -p 8080:80 -e SERVER_NAMES="localhost 127.0.0.1" agmenzies/coeus-radar01
+$ sudo docker run --rm -p 8080:80 -e SERVER_NAMES="localhost 127.0.0.1" agmenzies/coeus-radar02
 ```
 
 ## Docker Image - Thougtworks (Starting Point)
