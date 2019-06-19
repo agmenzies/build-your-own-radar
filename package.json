@@ -11,13 +11,13 @@
     "end_to_end_test": "node_modules/.bin/cypress run --env host=$TEST_URL",
     "start": "node_modules/.bin/cypress open --env host=$TEST_URL"
   },
-  "author": "ThoughtWorks",
+  "author": "Alisdair Menzies @ Coeus Consulting",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thoughtworks/build-your-own-radar"
+    "url": "https://github.com/agmenzies/coeus-radar02"
   },
   "keywords": [
-    "tech-radar"
+    "Coeus-radar"
   ],
   "license": "AGPL-3.0",
   "devDependencies": {
