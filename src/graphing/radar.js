@@ -443,7 +443,7 @@ const Radar = function (size, radar) {
     header.select('.radar-title')
       .append('div')
       .attr('class', 'radar-title__logo')
-      .html('<a href="https://www.coeusconsutling.co.uk"> <img src="/images/logo.png" /> </a>')
+      .html('<a href="https://www.coeusconsulting.co.uk/"> <img src="/images/logo.png" /> </a>')
 
     buttonsGroup = header.append('div')
       .classed('buttons-group', true)
@@ -507,7 +507,8 @@ const Radar = function (size, radar) {
       .append('div')
       .attr('class', 'footer-content')
       .append('p')
-      .html('Powered by <a href="https://www.thoughtworks.com"> ThoughtWorks</a>. ')
+      .html('Powered by <a href="https://www.coeusconsulting.co.uk/"> Coeus Consulting</a>. ' +
+      'This software is <a href="https://github.com/agmenzies/coeus-radar02">open source</a> and available for download and self-hosting.')
   }
 
   function mouseoverQuadrant (order) {
