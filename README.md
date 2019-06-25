@@ -65,7 +65,7 @@ The application uses [webpack](https://webpack.github.io/) to package dependenci
 There is a docker Repo for running the radar on your docker machine
 (https://hub.docker.com/r/agmenzies/coeus-radar02). To pull and run the image, run the following commands.
 ```
-$ docker pull agmenzies/coeus-radar01
+$ docker pull agmenzies/coeus-radar02
 $ docker run --rm -p 8080:80 -e SERVER_NAMES="localhost 127.0.0.1" agmenzies/coeus-radar02
 $ open http://localhost:8080
 ```
