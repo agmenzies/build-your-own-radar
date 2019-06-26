@@ -258,7 +258,7 @@ function plotLoading (content) {
 function plotLogo (content) {
   content.append('div')
     .attr('class', 'input-sheet__logo')
-    .html('<a href="https://www.coeusconsulting.co.uk"><img src="/images/tw-logo.png" / ></a>')
+    .html('<a href="https://www.coeusconsulting.co.uk"><img src="/images/logo.png" / ></a>')
 }
 
 function plotFooter (content) {
