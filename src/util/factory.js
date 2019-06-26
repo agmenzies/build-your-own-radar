@@ -313,8 +313,10 @@ function plotErrorMessage (exception) {
 
   plotLogo(content)
 
-  var bannerText = '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.coeusconsulting.co.uk">created your Radar</a>, you can use this service'
+  var bannerText = '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.coeusconsulting.co.uk">created your Radar</a>, you can use this service</p></div>'
      
+  
+  
   plotBanner(content, bannerText)
 
   d3.selectAll('.loading').remove()
